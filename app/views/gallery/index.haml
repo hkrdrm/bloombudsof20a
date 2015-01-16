@@ -1,0 +1,4 @@
+- @images.each do |image|
+  %div{:class => "center-cropped"}
+    %a{:id => "single_1", :href => image}
+      %img{:src => "images/thumbs/" + image.split('/')[2]}

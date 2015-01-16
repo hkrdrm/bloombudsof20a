@@ -1,0 +1,9 @@
+---
+:orm: none
+:test: none
+:mock: none
+:script: jquery
+:renderer: haml
+:stylesheet: sass
+:namespace: Bloombudsof20a
+:migration_format: number

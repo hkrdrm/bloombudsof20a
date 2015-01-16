@@ -1,0 +1,47 @@
+/* navbar */
+.navbar-inner {
+  background-color: #B4CFEC; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+.navbar .nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color:  #fdfd96;
+}
+
+body{
+  /*background: url('/images/fractalBackground.png');*/
+  background: url('/images/symphony.png');
+  background-repeat: repeat;
+  /*background-size: cover;*/
+}
+.flexslider {
+  width: 200px;
+  height: 200px;
+}
+
+.flexslider .slides img {
+  width: 200px;
+  height: 200px;
+}
+
+.crop {
+  float: left;
+  width: 100px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 0 0 0;
+}
+.center-cropped {
+  padding: 25px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

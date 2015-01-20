@@ -7,4 +7,4 @@ threads    1, 3 # min, max
 
 pidfile    "/home/hkrdrm/tmp/puma/puma_app1.pid" # puma folder must exist
 state_path "/home/hkrdrm/tmp/puma/state"
-activate_control_app 'unix://tmp/pumactl.sock'
+activate_control_app

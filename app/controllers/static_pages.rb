@@ -23,12 +23,12 @@ Bloombudsof20a::App.controllers :static_pages do
     render 'index'
   end
 
-  get :about, :map => 'about' do
-    render 'about'
+  get :about, :map => 'registration' do
+    render 'registration'
   end
 
   get :contact, :map => 'contact' do
-    "hello World"
+    render 'contact'
   end
 
 end

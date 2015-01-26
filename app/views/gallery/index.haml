@@ -1,4 +1,5 @@
-- @images.each do |image|
-  %div{:class => "center-cropped"}
-    %a{:class => "fancybox", :rel=> "gallery1", :href => image}
-      %img{:src => "images/thumbs/" + image.split('/')[2], :alt => ""}
+.gallery
+  - @images.each do |image|
+    %div{:class => "center-cropped"}
+      %a{:class => "fancybox", :rel=> "gallery1", :href => image}
+        %img{:src => "images/thumbs/" + image.split('/')[2], :alt => ""}

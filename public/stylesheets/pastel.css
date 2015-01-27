@@ -64,6 +64,7 @@ body{
   position: relative;
   top: 150px;
   border-radius: 50px;
+  overflow: auto;
 }
 .gallery{
   position: relative;
@@ -78,6 +79,7 @@ h1{
 }
 #firstHeading{
   color:  #ffd457;
+  text-align: center;
 }
 h2{
   font-family: "Chewy";

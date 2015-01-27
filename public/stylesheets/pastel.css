@@ -59,7 +59,8 @@ body{
 .hero-unit{
   box-shadow: 10px 10px 5px #888888;
   background-color: #00adef;
-  color:  #ffd457;
+  /*color: #ffd457;*/
+  color: white;
   position: relative;
   top: 150px;
   border-radius: 50px;
@@ -79,5 +80,5 @@ h1{
 p {
   text-indent: 50px;
   font-family: "Chewy";
-font-size:21px;
+  font-size:21px;
 }

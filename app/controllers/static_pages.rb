@@ -31,4 +31,8 @@ Bloombudsof20a::App.controllers :static_pages do
     render 'contact'
   end
 
+  get :about, :map => 'about' do
+    render 'contact'
+  end
+
 end

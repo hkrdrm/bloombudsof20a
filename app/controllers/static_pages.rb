@@ -32,7 +32,7 @@ Bloombudsof20a::App.controllers :static_pages do
   end
 
   get :about, :map => 'about' do
-    render 'contact'
+    render 'about'
   end
 
 end

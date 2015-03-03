@@ -1,24 +1,28 @@
 /* navbar */
 .navbar-inner {
 /*  background-color: #B4CFEC; /* background color will be black for all browsers */
-  background-color: #00adef; /* background color will be black for all browsers */
+  background-color: #B4CFEC; /* background color will be black for all browsers */
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
-  height: 94px;
+  height: 80px;
 }
 .navbar .nav > li > a {
     float: none;
     line-height: 19px;
-    padding: 50px 20px 20px;
+    padding: 30px 20px 20px;
     text-align: right;
     text-decoration: none;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     /*color:  #fdfd96;*/
-    color:  #ffd457;
+    color:  #376799;
     font-size: 34px;
     font-weight: bold;
-    font-family: "Cedarville Cursive";
+    /*font-family: "Cedarville Cursive";*/
+    font-family: "aniversregular";
+}
+.navbar .nav > li > a:hover {
+  color: #FFEDCF;
 }
 
 img.home{
@@ -54,9 +58,13 @@ body{
   margin: 0 0 0 0;
 }
 
+#myCarousel{
+  top: 100px;
+}
+
 .center-cropped {
   margin: 25px;
-  border: 5px solid white;
+  border: 6px solid #CFE6FF;
   border-radius: 5px;
   float: left;
   width: 100px;
@@ -65,24 +73,26 @@ body{
   background-repeat: no-repeat;
   box-shadow: 10px 10px 5px #888888;
 }
+
 .hero-unit{
   box-shadow: 10px 10px 5px #888888;
-  background-color: #00adef;
+  background-color: #376799;
   /*color: #ffd457;*/
   color: white;
   position: relative;
   top: 150px;
   border-radius: 50px;
   overflow: auto;
+  font-family: "aniversregular";
 }
 .gallery{
   position: relative;
-  top: 150px;
+  top: 100px;
 }
 
 h1{
+  font-family: "aniversregular";
   text-align: center;
-  font-family: "Cedarville Cursive";
   font-weight:bold;
   padding-bottom: 20px;
 }
@@ -91,12 +101,12 @@ h1{
   text-align: center;
 }
 h2{
-  font-family: "Chewy";
+  font-family: "aniversregular";
 }
 
 p, table {
   text-indent: 50px;
-  font-family: "Chewy";
+  font-family: "aniversregular";
   font-size:21px;
   color: white;
 }
@@ -110,7 +120,7 @@ p, table {
 }
 
 #button2{
-  font-family: "Chewy";
+  font-family: "aniversregular";
 }
 table {
   margin-left:auto;
@@ -119,4 +129,17 @@ table {
 
 .contract{
   text-align: center;
+}
+
+@font-face {
+  font-family: 'aniversregular';
+  src: url('anivers_regular_english/Anivers_Regular-webfont.eot');
+  src: url('anivers_regular_english/Anivers_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('anivers_regular_english/Anivers_Regular-webfont.woff2') format('woff2'),
+  url('anivers_regular_english/Anivers_Regular-webfont.woff') format('woff'),
+  url('anivers_regular_english/Anivers_Regular-webfont.ttf') format('truetype'),
+  url('anivers_regular_english/Anivers_Regular-webfont.svg#aniversregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
 }

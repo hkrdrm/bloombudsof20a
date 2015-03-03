@@ -1,6 +1,20 @@
-.hero-unit
-  %h1{:id => "firstHeading"} Blooming Buds of 30-A
-  %img{:class => "home", :border => "5px solid white", :src => "images/home1.jpg"}
-  %img{:class => "home", :border => "5px solid white", :src => "images/home2.jpg"}
-  %img{:class => "home", :border => "5px solid white", :src => "images/home3.jpg"}
-  %img{:class => "home", :border => "5px solid white", :src => "images/home4.png"}
+%div{:class => "carousel slide", :id => "myCarousel", "data-ride" => "carousel"}
+  %ol.carousel-indicators
+    %li{"data-target" => "#myCarousel", "data-slide-to" => "0", :class => "active"}
+    %li{"data-target" => "#myCarousel", "data-slide-to" => "1"}
+    %li{"data-target" => "#myCarousel", "data-slide-to" => "2"}
+  .carousel-inner{:role => "listbox"}
+    .active.item
+      %img{:src => "images/gallery/i-m9JRFpZ-L.jpg", :alt => "First slide"}
+        .carousel-caption
+          %h1 Eternal...
+    .item
+      %img{:src => "images/gallery/i-XP54DJp-L.jpg", :alt => "Second slide"}
+        .carousel-caption
+          %h1 Love...
+    .item
+      %img{:src => "images/gallery/i-ZxTpw5t-L.jpg", :alt => "Third slide"}
+        .carousel-caption
+          %h1 Passion...
+  %a{:class => "carousel-control left", :href => "#myCarousel", "data-slide" => "prev"} &lsaquo;
+  %a{:class => "carousel-control right", :href => "#myCarousel", "data-slide" => "next"} &rsaquo;

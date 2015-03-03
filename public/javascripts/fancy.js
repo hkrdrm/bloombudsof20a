@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  $('#myCarousel').carousel({
+    //options here
+  });
+});
+
+$(document).ready(function() {
   $("#single_1").fancybox({
     helpers: {
       title : {

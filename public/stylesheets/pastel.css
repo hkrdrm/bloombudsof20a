@@ -96,6 +96,9 @@ h1{
   font-weight:bold;
   padding-bottom: 20px;
 }
+h1.carousel-cap{
+  font-family: "Cedarville Cursive";
+}
 #firstHeading{
   color:  #ffd457;
   text-align: center;
